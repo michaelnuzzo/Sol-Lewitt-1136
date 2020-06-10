@@ -1,7 +1,5 @@
 #include "ofApp.h"
 
-//TODO: Fix Colors
-
 //--------------------------------------------------------------
 void ofApp::setup(){
 

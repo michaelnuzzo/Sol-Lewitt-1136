@@ -11,14 +11,14 @@
 
 #include "ofMain.h"
 
-const int NUM_LINES = 9;
-const int RED = 0xc0172c;
-const int ORANGE = 0xe75d39;
-const int YELLOW = 0xfae649;
-const int GREEN = 0x7fc940;
-const int BLUE = 0x0c67d2;
-const int INDIGO = 0xabb0b3;
-const int VIOLET = 0x5657cb;
+const int RED = 0xc11a2e;
+const int ORANGE = 0xe24f2d;
+const int YELLOW = 0xebd438;
+const int GREEN = 0x5ea61c;
+const int BLUE = 0x0c6dce;
+const int INDIGO = 0xabafb0;
+const int VIOLET = 0x5847a5;
+
 
 const std::array<int,7> UNIQUE_CLRS
 {
@@ -31,7 +31,7 @@ const std::array<int,7> UNIQUE_CLRS
     INDIGO
 };
 
-const std::array<int,NUM_LINES> BRUSH_SEQ
+const std::array<int,9> BRUSH_SEQ
 {
     VIOLET,
     ORANGE,
