@@ -8,7 +8,7 @@ void ofApp::setup(){
     // set the number of brush strokes and the total brush width
     brush.initialize(9,ofGetHeight()/3.f);
     // set the initial position of the brush
-    brush.setCenter(glm::vec2(0, ofGetHeight()/2.f));
+    brush.setCenter(glm::vec2(0, 2*ofGetHeight()/3.f));
     brush.setVelocity(ofGetWidth()/600.f);
 
     maxTurnSpeed = 105*brush.getVelocity()/brush.getWidth();
@@ -93,6 +93,12 @@ void ofApp::processKeys()
     bool D = keysPressed.find(OF_KEY_DOWN) != keysPressed.end();
     bool xL = keysReleased.find(OF_KEY_LEFT) != keysReleased.end();
     bool xR = keysReleased.find(OF_KEY_RIGHT) != keysReleased.end();
+
+//    // automatic movement override
+//    float speed = cos(2*ofDegToRad(ofGetFrameNum()));
+//    brush.turn(maxTurnSpeed * ((speed < 0) - (0 < speed)));
+
+
     float easingFunction; // this helps transition the rotation from the initial key press
 
     if (L)

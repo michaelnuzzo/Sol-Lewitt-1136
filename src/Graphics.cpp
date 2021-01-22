@@ -82,7 +82,7 @@ void Brush::initialize(int numStrips, int w)
     brushWidth = w;
     // total strip width
     stripWidth = brushWidth/numStrips;
-    stripLength = stripWidth/5.f;
+    stripLength = stripWidth/2.f;
 
     // add all the strips to the brush
     for(int i = 0; i < numStrips; i++)
