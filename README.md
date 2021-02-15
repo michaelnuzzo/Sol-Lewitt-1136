@@ -2,7 +2,7 @@
 
 # Sol-Lewitt-1136
 
-<img width="400px" src="docs/imgs/logo.png">
+<img width="400px" src="docs/imgs/header.png">
 
 </div>
 
