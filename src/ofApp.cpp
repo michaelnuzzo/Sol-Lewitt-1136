@@ -83,6 +83,8 @@ void ofApp::draw(){
     brushFbos.at((curBrushFbo+1)%2).draw((curBrushFbo+1) * ofGetWidth(),0);
 
     cam.end();
+
+//    ofSaveFrame();
 }
 
 void ofApp::processKeys()
@@ -103,12 +105,12 @@ void ofApp::processKeys()
 
     if (L)
     {
-        easingFunction = tanh(2.f*(ofGetElapsedTimef() - keysPressed[OF_KEY_LEFT]));
+        easingFunction = tanh((ofGetFrameNum() - keysPressed[OF_KEY_LEFT])/30.f);
         brush.turn(-maxTurnSpeed * easingFunction);
     }
     if (R)
     {
-        easingFunction = tanh(2.f*(ofGetElapsedTimef() - keysPressed[OF_KEY_RIGHT]));
+        easingFunction = tanh((ofGetFrameNum() - keysPressed[OF_KEY_RIGHT])/30.f);
         brush.turn(maxTurnSpeed * easingFunction);
     }
     if (R && L)
@@ -124,7 +126,7 @@ void ofApp::processKeys()
         else if(xR)
             upTime = keysReleased[OF_KEY_RIGHT];
 
-        easingFunction = 1-tanh(2.f*(ofGetElapsedTimef() - upTime));
+        easingFunction = 1-tanh((ofGetFrameNum() - upTime)/30.f);
         brush.turn(lastRotation*easingFunction);
     }
     if (U)
@@ -140,7 +142,7 @@ void ofApp::processKeys()
     auto it = keysReleased.begin();
     while (it != keysReleased.end())
     {
-      if((ofGetElapsedTimef() - it->second) > 1)
+      if((ofGetFrameNum() - it->second) > 60)
           it = keysReleased.erase(it);
       else
         ++it;
@@ -215,7 +217,7 @@ void ofApp::drawBrush(){
 void ofApp::keyPressed(int key){
     // Save key & time it was pressed
     if(keysPressed.find(key) == keysPressed.end())
-        keysPressed[key] = ofGetElapsedTimef();
+        keysPressed[key] = ofGetFrameNum();
 }
 
 //--------------------------------------------------------------
@@ -223,7 +225,7 @@ void ofApp::keyReleased(int key)
 {
     // Save key that was just released
     keysPressed.erase(key);
-    keysReleased[key] = ofGetElapsedTimef();
+    keysReleased[key] = ofGetFrameNum();
     lastRotation = brush.getRotation();
 }
 

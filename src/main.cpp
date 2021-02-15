@@ -3,9 +3,15 @@
 
 //========================================================================
 int main( ){
-//	ofSetupOpenGL(1920,1080,OF_FULLSCREEN);			// <-------- setup the GL context
-//    ofSetupOpenGL(1280,720,OF_WINDOW);            // <-------- setup the GL context
-    ofSetupOpenGL(1584,396,OF_WINDOW);            // <-------- setup the GL context
+//	ofSetupOpenGL(1920,1080,OF_FULLSCREEN);			// fullscreen (1080p)
+//    ofSetupOpenGL(960,540,OF_WINDOW);            // 1080p / 2
+//    ofSetupOpenGL(1280,720,OF_WINDOW);            // 720p
+//    ofSetupOpenGL(1584,396,OF_WINDOW);            // linkedin
+//    ofSetupOpenGL(1600,900,OF_WINDOW);            // 16:9
+    ofSetupOpenGL(1195,500,OF_WINDOW);            // cinematic 
+
+
+
 
 
 
