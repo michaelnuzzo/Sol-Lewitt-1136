@@ -8,7 +8,7 @@
 
 ## Overview
 
-The Sol Lewitt 1136 app is a digital recreation of Sol Lewitt's <em>Wall Drawing 1136</em> that allows the user to "paint" their own version to an infinite canvas. For reference, the "original" can be found at the National Gallery of [Scottish National Gallery of Modern Art](https://www.nationalgalleries.org/exhibition/artist-rooms-sol-lewitt-wall-drawing-1136-2004).
+The Sol Lewitt 1136 app is a digital recreation of Sol Lewitt's <em>Wall Drawing 1136</em> that allows the user to "paint" their own version to an infinite canvas. For reference, the "original" can be found at the [Scottish National Gallery of Modern Art](https://www.nationalgalleries.org/exhibition/artist-rooms-sol-lewitt-wall-drawing-1136-2004).
 
 ## Install
 
