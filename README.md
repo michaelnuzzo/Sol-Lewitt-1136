@@ -1,4 +1,4 @@
-<div  align="center">
+<div align="center">
 
 # Sol Lewitt 1136
 
@@ -15,15 +15,15 @@ The Sol Lewitt 1136 app is a digital recreation of Sol Lewitt's <em>Wall Drawing
 [Sol Lewitt](https://en.wikipedia.org/wiki/Sol_LeWitt) (1928 – 2007) was an American visual artist. Among his most famous works are his <em>Wall Drawings</em>, mural paintings consisting of simple figures or patterns and typically covering large wall segments. In most cases, the actual "work" consists of a small piece of paper with diagrams or algorithm-like instructions detailing how to create the painting. The murals themselves are usually created by teams of draftsmen following or interpreting the instructions. An example of the instructions can be found accompanying his <em>Wall Drawing 118</em>:
 
   
-  >                             On a wall surface, any<br/>
-  >                             continuous stretch of wall,<br/>
-  >                             using a hard pencil, place<br/>
-  >                             fifty points at random.<br/>
-  >                             The points should be evenly<br/>
-  >                             distributed over the area<br/>
-  >                             of the wall. All of the<br/>
-  >                             points should be connected<br/>
-  >                             by straight lines.<br/>
+  >                             On a wall surface, any
+  >                             continuous stretch of wall,
+  >                             using a hard pencil, place
+  >                             fifty points at random.
+  >                             The points should be evenly
+  >                             distributed over the area
+  >                             of the wall. All of the
+  >                             points should be connected
+  >                             by straight lines.
 
 
 In many cases, the instructions themselves are not public, but the rules can be inferred by observing the drawings closely. For instance, in the case of <em>Wall Drawing 1136</em>, it appears that each colors is to be separated by at least two other colors before the same color is repeated. This informs the color selection algorithm in the app when new wall strips are generated as the canvas advances.
