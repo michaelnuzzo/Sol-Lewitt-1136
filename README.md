@@ -26,7 +26,7 @@ The Sol Lewitt 1136 app is a digital recreation of Sol Lewitt's <em>Wall Drawing
   >       by straight lines.
 
 
-In many cases, the instructions themselves are not public, but the rules can be inferred by observing the drawings closely. For instance, in the case of <em>Wall Drawing 1136</em>, it appears that each colors is to be separated by at least two other colors before the same color is repeated. This informs the color selection algorithm in the app when new wall strips are generated as the canvas advances.
+In many cases, the instructions themselves are not public, but the rules can be inferred by observing the drawings closely. For instance, in the case of <em>Wall Drawing 1136</em>, it appears that each color is to be separated by at least two other colors before it is repeated. This informs the color selection algorithm in the app as the canvas advances and new wall strips are generated.
 
 Many other examples can be found at the [Solving Sol](https://github.com/wholepixel/solving-sol) project, an open source collection of implementations of Lewitt's work in Javascript. 
 
