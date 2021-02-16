@@ -12,7 +12,7 @@ The Sol Lewitt 1136 app is a digital recreation of Sol Lewitt's <em>Wall Drawing
 
 ## Background 
 
-[Sol Lewitt](https://en.wikipedia.org/wiki/Sol_LeWitt) (1928 – 2007) was an American visual artist. Among his most famous works are his <em>Wall Drawings</em>, mural paintings consisting of simple figures or patterns and typically covering large wall segments. In most cases, the actual "work" consists of a small piece of paper with diagrams or algorithm-like instructions detailing how to create the painting. The murals themselves are usually created by teams of draftsmen following or interpreting the instructions. An example of the instructions can be found accompanying his <em>Wall Drawing 118</em>:
+[Sol Lewitt](https://en.wikipedia.org/wiki/Sol_LeWitt) (1928 – 2007) was an American visual artist. Among his most famous works are his <em>Wall Drawings</em>, mural paintings consisting of simple figures or patterns covering large wall segments. In most cases, the actual "work" consists of a small piece of paper with diagrams or algorithm-like instructions detailing how to create the painting. The murals themselves are usually created by teams of draftsmen following or interpreting the instructions. An example of the instructions can be found accompanying his <em>Wall Drawing 118</em>:
 
   
   >       On a wall surface, any
