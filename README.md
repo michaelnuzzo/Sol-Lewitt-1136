@@ -34,6 +34,8 @@ Many other examples of digital versions of the <em>Wall Drawings</em> can be fou
 
 The app can be downloaded from the [Releases page](https://github.com/michaelnuzzo/Sol-Lewitt-1136/releases) in this repository. You may need to authorize the app to be run on your machine in "System Preferences -> Security & Privacy -> General -> Allow apps downloaded from".
 
+Currently, the only available binary is for macOS. If you would like to generate a binary for your platform, please see (Build)[#Build].
+
 ## Build
 
 The Sol Lewitt 1136 app was built in openFrameworks. You should be able to build the .app by creating a new openFrameworks project and installing the files in the src/ directory.
